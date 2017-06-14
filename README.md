@@ -2,7 +2,7 @@
 GIT dependency management for Matlab. DepMat is for when your Matlab code depends on one or more GIT repositories, and you want these to be automatically kept up to date.
 DepMat will check the current versions of the git repositories, and update to the newest version if required. DepMat will also add all subdirectories to the Matlab path automatically.
 
-##Typical usage
+## Typical usage
 Typically you might call `DepMatUpdate` whenever your Matlab program runs
 
 ```
